@@ -36,5 +36,5 @@ Feature: Lets go to google
     Scenario: go to kadaza
       Given user navigates "https://www.kadaza.co.uk/shopping"
       When user clicks "tesco_button"
-      And user clicks "accept_cookie"
+#      And user clicks "accept_cookie"
       And user enters "apple" to "search_button" area
