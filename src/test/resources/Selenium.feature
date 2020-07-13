@@ -30,11 +30,13 @@ Feature: Lets go to google
     Examples:
       | linkName            | pageName                          |
 #      | Microsoft_agreement | Microsoft_Services_Agreement_Page |
-      | privacy_statement   | privacy_statement_page            |
+      | privacy_statement   | Microsoft Privacy Statement           |
 
     
     Scenario: go to kadaza
       Given user navigates "https://www.kadaza.co.uk/shopping"
-      When user clicks "tesco_button"
+      When user clicks "wilko_button"
 #      And user clicks "accept_cookie"
-      And user enters "apple" to "search_button" area
+#      And user enters "kitchen gloves" to "search_button" area
+
+

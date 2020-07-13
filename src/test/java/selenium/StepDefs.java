@@ -7,6 +7,7 @@ import io.cucumber.java.en.When;
 import static selenium.SeleniumHelper.*;
 
 public class StepDefs {
+
     @Given("user navigates {string}")
     public void userNavigates(String url) throws InterruptedException {
         navigateHelper(url);
